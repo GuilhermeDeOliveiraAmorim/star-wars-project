@@ -6,7 +6,7 @@ const Home: NextPage = () => {
 
 	const starWarsWorld = useStarWars();
 
-	console.log(starWarsWorld);
+	console.log(starWarsWorld.data);
 
 	return (
 		<div>
