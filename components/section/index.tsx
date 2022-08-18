@@ -10,10 +10,10 @@ export default function Section(props: ISection) {
 
     return (
         <section className="h-full text-white bg-slate-800 p-32">
-            <h1>
+            <h1 className="text-3xl mb-4">
                 {title}
             </h1>
-            <p>
+            <p className="text-lg mb-4">
                 {description}
             </p>
             <div>
