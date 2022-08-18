@@ -9,7 +9,7 @@ export default function Section(props: ISection) {
     const { title, description, content } = props;
 
     return (
-        <section className="h-full text-white bg-slate-800 p-32">
+        <section className="h-full text-white bg-swgunmetal text-swbone p-32">
             <h1 className="text-3xl mb-4">
                 {title}
             </h1>

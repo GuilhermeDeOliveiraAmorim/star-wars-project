@@ -6,7 +6,7 @@ export default function Card(props: ICharacter) {
     const { id, image, name, species } = props;
 
     return (
-        <div key={id} className="p-4 rounded-lg bg-slate-400 basis-1/6 flex flex-col">
+        <div key={id} className="p-4 rounded-lg bg-swbdazzledblue text-swmaizecrayola basis-1/6 flex flex-col">
             <Image
                 className="rounded-lg"
                 src={image}

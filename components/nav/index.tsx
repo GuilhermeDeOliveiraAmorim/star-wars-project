@@ -2,7 +2,7 @@ import Logo from "./logo";
 
 export default function Nav() {
     return (
-        <div className="flex flex-row bg-black text-white p-2">
+        <div className="flex flex-row bg-swraisinblack text-white p-2">
             <div className="basis-1/3 flex justify-start items-center">
                 <Logo />
             </div>
