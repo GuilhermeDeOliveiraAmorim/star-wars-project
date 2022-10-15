@@ -9,6 +9,7 @@ module.exports = {
         colors: {
             swxiketic: { DEFAULT: "#230F12" },
             swbdazzledblue: { DEFAULT: "#15589C" },
+            swbdazzledbluelight: { DEFAULT: "#2176cc" },
             swbone: { DEFAULT: "#E8DDC7" },
             swflame: { DEFAULT: "#DA6C3A" },
             swmaizecrayola: { DEFAULT: "#E3BF3F" },

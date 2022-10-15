@@ -6,6 +6,7 @@ export default function Logo() {
         <Image
             src={logo}
             alt="Logo"
+            className="h-full"
         />
     )
 }

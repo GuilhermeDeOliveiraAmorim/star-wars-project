@@ -5,8 +5,10 @@ export default function Card(props: ICharacter) {
 
     const { id, image, name, species } = props;
 
+    console.log(image == null);
+
     return (
-        <div key={id} className="p-4 rounded-lg bg-swbdazzledblue text-swmaizecrayola basis-1/6 flex flex-col">
+        <button key={id} className="flex p-4 gap-4 rounded-lg bg-swbdazzledblue border hover:bg-swbdazzledbluelight">
             <Image
                 className="rounded-lg"
                 src={image}
@@ -14,12 +16,14 @@ export default function Card(props: ICharacter) {
                 width={80}
                 height={100}
             />
-            <h1>
-                {name}
-            </h1>
-            <p>
-                {species}
-            </p>
-        </div>
+            <div>
+                <h1>
+                    {name}
+                </h1>
+                <p className="text-xs">
+                    {species}
+                </p>
+            </div>
+        </button>
     )
 }
